@@ -1,6 +1,7 @@
 # DynamicProgramming
 
 ##1. Two Sum
+
 Given an array of integers _nums_ and an integer _target_, return indices of the two numbers such that they add up to _target_.
 
 You may assume that each input would have *exactly one solution*, and you may not use the same element twice.
@@ -37,6 +38,7 @@ Output: [0,1]
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
 ##2. Add Two Numbers
+
 You are given two non-empty linked lists representing two non-negative integers. 
 The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
@@ -69,6 +71,7 @@ Output: [8,9,9,9,0,0,0,1]
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
 ##3. Longest Substring Without Repeating Characters
+
 Given a string _s_, find the length of the **longest substring** without repeating characters.
 
 **Example 1:**
