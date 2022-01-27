@@ -1,6 +1,6 @@
 # DynamicProgramming
 
-##1. Two Sum
+## 1. Two Sum
 
 Given an array of integers _nums_ and an integer _target_, return indices of the two numbers such that they add up to _target_.
 
@@ -37,7 +37,7 @@ Output: [0,1]
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-##2. Add Two Numbers
+## 2. Add Two Numbers
 
 You are given two non-empty linked lists representing two non-negative integers. 
 The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
@@ -70,7 +70,7 @@ Output: [8,9,9,9,0,0,0,1]
 - 0 <= Node.val <= 9
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
-##3. Longest Substring Without Repeating Characters
+## 3. Longest Substring Without Repeating Characters
 
 Given a string _s_, find the length of the **longest substring** without repeating characters.
 
@@ -97,3 +97,54 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 **Constraints:**
 - 0 <= s.length <= 5 * 10<sup>4</sup>
 - s consists of English letters, digits, symbols and spaces.
+
+## 4. Median of Two Sorted Arrays
+
+Given two sorted arrays _nums1_ and _nums2_ of size _m_ and _n_ respectively, return _**the median**_ of the two sorted arrays.
+
+The overall run time complexity should be _O(log (m+n))_.
+
+
+
+**Example 1:**
+````
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+````
+
+**Example 2:**
+````
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000
+Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+````
+
+**Constraints:**
+
+- nums1.length == m
+- nums2.length == n
+- 0 <= m <= 1000
+- 0 <= n <= 1000
+- 1 <= m + n <= 2000
+- -10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup>
+
+## 5. Longest Palindromic Substring
+
+Given a string _s_, return the longest palindromic substring in _s_.
+
+**Example 1:**
+````
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+````
+**Example 2:**
+````
+Input: s = "cbbd"
+Output: "bb"
+````
+
+**Constraints:**
+- 1 <= s.length <= 1000
+- s consist of only digits and English letters.
