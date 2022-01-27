@@ -72,7 +72,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 ## 3. Longest Substring Without Repeating Characters
 
-Given a string _s_, find the length of the **longest substring** without repeating characters.
+Given a string _s_, find the length of the **the longest substring** without repeating characters.
 
 **Example 1:**
 ````
@@ -97,8 +97,54 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 **Constraints:**
 - 0 <= s.length <= 5 * 10<sup>4</sup>
 - s consists of English letters, digits, symbols and spaces.
+## 4. Reverse Integer
 
-## 4. Median of Two Sorted Arrays
+Given a signed 32-bit integer _x_, return _x_ with its digits reversed. 
+If reversing _x_ causes the value to go outside the signed 32-bit integer range _[-2<sup>31</sup>, 2<sup>31</sup> - 1]_, then return _0_.
+
+**Assume the environment does not allow you to store 64-bit integers (signed or unsigned).**
+
+**Example 1:**
+````
+Input: x = 123
+Output: 321
+````
+**Example 2:**
+````
+Input: x = -123
+Output: -321
+````
+**Example 3:**
+````
+Input: x = 120
+Output: 21
+````
+
+**Constraints:**
+- -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
+
+## 5. Longest Palindromic Substring
+
+Given a string _s_, return the longest palindromic substring in _s_.
+
+**Example 1:**
+````
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+````
+**Example 2:**
+````
+Input: s = "cbbd"
+Output: "bb"
+````
+
+**Constraints:**
+- 1 <= s.length <= 1000
+- s consist of only digits and English letters.
+
+
+## 100. Median of Two Sorted Arrays
 
 Given two sorted arrays _nums1_ and _nums2_ of size _m_ and _n_ respectively, return _**the median**_ of the two sorted arrays.
 
@@ -128,23 +174,3 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 - 0 <= n <= 1000
 - 1 <= m + n <= 2000
 - -10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup>
-
-## 5. Longest Palindromic Substring
-
-Given a string _s_, return the longest palindromic substring in _s_.
-
-**Example 1:**
-````
-Input: s = "babad"
-Output: "bab"
-Explanation: "aba" is also a valid answer.
-````
-**Example 2:**
-````
-Input: s = "cbbd"
-Output: "bb"
-````
-
-**Constraints:**
-- 1 <= s.length <= 1000
-- s consist of only digits and English letters.
