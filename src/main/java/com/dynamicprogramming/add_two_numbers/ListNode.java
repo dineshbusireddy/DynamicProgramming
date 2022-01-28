@@ -1,4 +1,4 @@
-package com.dynamicprogramming.addtwonumbers;
+package com.dynamicprogramming.add_two_numbers;
 
 public class ListNode {
     int val;

@@ -1,4 +1,4 @@
-package com.dynamicprogramming.twosum;
+package com.dynamicprogramming.two_sum;
 
 public class BruteForce implements ITwoSum {
     public int[] findTwoSum(int[] nums, int target) {

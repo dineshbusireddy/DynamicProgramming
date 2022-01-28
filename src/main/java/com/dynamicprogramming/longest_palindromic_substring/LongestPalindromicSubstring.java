@@ -1,4 +1,4 @@
-package com.dynamicprogramming.longestpalindromicsubstring;
+package com.dynamicprogramming.longest_palindromic_substring;
 
 public class LongestPalindromicSubstring {
 

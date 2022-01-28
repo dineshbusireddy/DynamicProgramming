@@ -1,4 +1,4 @@
-package com.dynamicprogramming.twosum;
+package com.dynamicprogramming.two_sum;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.dynamicprogramming.longestsubstring;
+package com.dynamicprogramming.longest_substring;
 
 import java.util.HashMap;
 import java.util.Map;

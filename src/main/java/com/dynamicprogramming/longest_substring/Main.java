@@ -1,4 +1,4 @@
-package com.dynamicprogramming.longestsubstring;
+package com.dynamicprogramming.longest_substring;
 
 public class Main {
     public static void main(String[] args) {
