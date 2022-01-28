@@ -242,9 +242,34 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 **Follow up:** Could you solve it without converting the integer to a string?
 
+## 8. Container With Most Water
 
+You are given an integer array _height_ of length _n_. There are _n_ vertical lines drawn such that the two endpoints of the _i<sup>th</sup>_ line are _(i, 0)_ and _(i, height[i])_.
 
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
 
+Return the _maximum amount of water a container can store._
+
+**Notice** that you may not slant the container.
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/container_with_most_water.png "Title")
+````
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+````
+**Example 2:**
+````
+Input: height = [1,1]
+Output: 1
+````
+
+**Constraints:**
+- n == height.length
+- 2 <= n <= 10<sup>5</sup>
+- 0 <= height[i] <= 10<sup>4</sup>
 
 
 
