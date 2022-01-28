@@ -317,7 +317,53 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 - 1 <= num <= 3999
 
+## 10. Roman to Integer
 
+Roman numerals are represented by seven different symbols: _I, V, X, L, C, D_ and _M_.
+````
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+````
+For example, _2_ is written as _II_ in Roman numeral, just two one's added together. _12_ is written as _XII_, which is simply _X + II_. The number _27_ is written as _XXVII_, which is _XX + V + II_.
+
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for _four_ is not _IIII_. Instead, the number _four_ is written as _IV_. Because the one is before the five we subtract it making four. The same principle applies to the number _nine_, which is written as _IX_. There are six instances where subtraction is used:
+
+- _I_ can be placed before _V_ (5) and _X_ (10) to make 4 and 9.
+- _X_ can be placed before _L_ (50) and _C_ (100) to make 40 and 90.
+- _C_ can be placed before _D_ (500) and _M_ (1000) to make 400 and 900.
+
+Given a roman numeral, convert it to an integer.
+
+**Example 1:**
+````
+Input: s = "III"
+Output: 3
+Explanation: III = 3.
+````
+**Example 2:**
+````
+Input: s = "LVIII"
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+````
+**Example 3:**
+````
+Input: s = "MCMXCIV"
+Output: 1994
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+````
+
+**Constraints:**
+
+- 1 <= s.length <= 15
+- s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+- It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 
 

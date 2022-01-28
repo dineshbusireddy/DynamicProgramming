@@ -52,6 +52,7 @@ public class IntegerToRoman {
         System.out.println(solution.intToRoman(1025));//MXXV
         System.out.println(solution.intToRoman(1994));//MCMXCIV
         System.out.println(solution.intToRoman(2525));//MMDXXV
+        System.out.println(solution.intToRoman(3999));//MMMCMXCIX
         System.out.println(solution.intToRoman(10525));//MMMMMMMMMMDXXV
     }
 
