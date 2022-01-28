@@ -208,6 +208,53 @@ Since 4193 is in the range [-2<sup>31</sup>, 2<sup>31</sup> - 1], the final resu
 - 0 <= s.length <= 200
 - s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
+## 7. Palindrome Number
+
+Given an integer _x_, return _true_ if _x_ is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward.
+
+For example, _121_ is a palindrome while _123_ is not.
+
+**Example 1:**
+````
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+````
+
+**Example 2:**
+````
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+````
+
+**Example 3:**
+````
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+````
+
+**Constraints:**
+- -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
+
+**Follow up:** Could you solve it without converting the integer to a string?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 100. Median of Two Sorted Arrays
 
 Given two sorted arrays _nums1_ and _nums2_ of size _m_ and _n_ respectively, return _**the median**_ of the two sorted arrays.
