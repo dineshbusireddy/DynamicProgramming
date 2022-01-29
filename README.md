@@ -391,8 +391,33 @@ Explanation: There is no common prefix among the input strings.
 - 0 <= strs[i].length <= 200
 - strs[i] consists of only lower-case English letters.
 
+#11. 3Sum
 
+**_Medium_**
 
+Given an integer array _nums_, return all the triplets [_nums[i], nums[j], nums[k]]_ such that _i != j, i != k, and j != k_, and _nums[i] + nums[j] + nums[k] == 0_.
+
+Notice that the solution set must not contain duplicate triplets.
+
+**Example 1:**
+````
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+````
+**Example 2:**
+````
+Input: nums = []
+Output: []
+````
+**Example 3:**
+````
+Input: nums = [0]
+Output: []
+````
+
+**Constraints:**
+- 0 <= nums.length <= 3000
+- -10<sup>5</sup> <= nums[i] <= 10<sup>5</sup>
 
 
 
