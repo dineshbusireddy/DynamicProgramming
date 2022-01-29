@@ -27,13 +27,4 @@ public class LongestPalindromicSubstring {
         return result;
     }
 
-    public static void main(String[] args) {
-        LongestPalindromicSubstring solution = new LongestPalindromicSubstring();
-        System.out.println(solution.longestPalindrome("babad"));// bab or aba
-        System.out.println(solution.longestPalindrome("cbbd"));// bb
-        System.out.println(solution.longestPalindrome("a"));// a
-        System.out.println(solution.longestPalindrome("aa"));// aa
-        System.out.println(solution.longestPalindrome("abcdef"));// any character
-    }
-
 }

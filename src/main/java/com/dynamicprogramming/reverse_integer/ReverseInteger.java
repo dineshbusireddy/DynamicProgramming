@@ -21,15 +21,4 @@ public class ReverseInteger {
         return result;
     }
 
-
-    public static void main(String[] args) {
-        ReverseInteger solution = new ReverseInteger();
-        System.out.println(solution.reverse(123));//321
-        System.out.println(solution.reverse(-123));//-321
-        System.out.println(solution.reverse(120));//21
-        System.out.println(solution.reverse(1534236469));
-        System.out.println(solution.reverse((int) Math.pow(-2, 31)));
-        System.out.println((int) Math.pow(-2, 31));
-    }
-
 }

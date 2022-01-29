@@ -22,10 +22,4 @@ public class ContainerWithMostWater {
         return maxArea;
     }
 
-    public static void main(String[] args) {
-        ContainerWithMostWater solution = new ContainerWithMostWater();
-        System.out.println(solution.maxArea(new int[]{1,8,6,2,5,4,8,3,7})); // 49
-        System.out.println(solution.maxArea(new int[]{1,1}));// 1
-        System.out.println(solution.maxArea(new int[]{2, 7, 3, 2, 5, 9, 8, 9, 9, 9}));//  56
-    }
 }

@@ -27,13 +27,4 @@ public class LongestCommonPrefix {
         return result.toString();
     }
 
-    public static void main(String[] args) {
-        LongestCommonPrefix solution = new LongestCommonPrefix();
-        System.out.println(solution.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));// fl
-        System.out.println(solution.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));//
-        System.out.println(solution.longestCommonPrefix(new String[]{"dog", "", "doe"}));//
-        System.out.println(solution.longestCommonPrefix(new String[]{"cir", "car"}));//c
-        System.out.println(solution.longestCommonPrefix(new String[]{"hello"}));//hello
-    }
-
 }

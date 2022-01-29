@@ -7,16 +7,10 @@ public class PalindromeNumber {
         int reverse = 0;
 
         while (x > 0) {
-            reverse = reverse * 10 + x%10;
-            x = x/10;
+            reverse = reverse * 10 + x % 10;
+            x = x / 10;
         }
         return original == reverse;
     }
 
-    public static void main(String[] args) {
-        PalindromeNumber solution = new PalindromeNumber();
-        System.out.println(solution.isPalindrome(121));//true
-        System.out.println(solution.isPalindrome(-121));//true
-        System.out.println(solution.isPalindrome(10));//false
-    }
 }
