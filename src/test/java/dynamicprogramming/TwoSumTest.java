@@ -1,5 +1,0 @@
-package dynamicprogramming;
-
-class TwoSumTest {
-
-}
