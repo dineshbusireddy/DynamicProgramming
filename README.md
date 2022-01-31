@@ -48,7 +48,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 **Example 1:**
 
-![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/add_two_numbers.png "Title")
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/add_two_numbers.png "Add Two Numbers")
 ````
 Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]
@@ -254,7 +254,7 @@ Return the _maximum amount of water a container can store._
 
 **Example 1:**
 
-![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/container_with_most_water.png "Title")
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/container_with_most_water.png "Container with more water")
 ````
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49
@@ -427,7 +427,7 @@ Given a string containing digits from **_2-9_** inclusive, return all possible l
 
 A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
-![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/telephone_keypad.png "Title")
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/telephone_keypad.png "Telephone Keypad")
 
 **Example 1:**
 ````
@@ -458,7 +458,7 @@ Given the **_head_** of a linked list, remove the **_nth_** node from the end of
 
 **Example 1:**
 
-![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/remove_nth_node.jpeg "Title")
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/remove_nth_node.jpeg "Remove Nth Node")
 
 ````
 Input: head = [1,2,3,4,5], n = 2
@@ -483,6 +483,107 @@ Output: [1]
 
 
 **Follow up:** Could you do this in one pass?
+
+
+## 14. Valid Parentheses
+
+**_Easy_**
+
+Given a string **_s_** containing just the characters _'(', ')', '{', '}', '[' and ']'_, determine if the input string is valid.
+
+An input string is valid if:
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+
+**Example 1:**
+````
+Input: s = "()"
+Output: true
+````
+**Example 2:**
+````
+Input: s = "()[]{}"
+Output: true
+````
+**Example 3:**
+````
+Input: s = "(]"
+Output: false
+````
+
+**Constraints:**
+- _1 <= s.length <= 10<sup>4</sup>_
+- _s_ consists of parentheses only _'()[]{}'_.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 100. Median of Two Sorted Arrays
 
