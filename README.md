@@ -1,6 +1,6 @@
 # DynamicProgramming
 
-## 1. Two Sum
+## Two Sum
 
 Given an array of integers _nums_ and an integer _target_, return indices of the two numbers such that they add up to _target_.
 
@@ -37,7 +37,7 @@ Output: [0,1]
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-## 2. Add Two Numbers
+## Add Two Numbers
 
 You are given two non-empty linked lists representing two non-negative integers. 
 The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
@@ -70,7 +70,7 @@ Output: [8,9,9,9,0,0,0,1]
 - 0 <= Node.val <= 9
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
-## 3. Longest Substring Without Repeating Characters
+## Longest Substring Without Repeating Characters
 
 Given a string _s_, find the length of the **the longest substring** without repeating characters.
 
@@ -97,7 +97,8 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 **Constraints:**
 - 0 <= s.length <= 5 * 10<sup>4</sup>
 - s consists of English letters, digits, symbols and spaces.
-## 4. Reverse Integer
+
+## Reverse Integer
 
 Given a signed 32-bit integer _x_, return _x_ with its digits reversed. 
 If reversing _x_ causes the value to go outside the signed 32-bit integer range _[-2<sup>31</sup>, 2<sup>31</sup> - 1]_, then return _0_.
@@ -123,7 +124,7 @@ Output: 21
 **Constraints:**
 - -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
 
-## 5. Longest Palindromic Substring
+## Longest Palindromic Substring
 
 Given a string _s_, return the longest palindromic substring in _s_.
 
@@ -143,7 +144,7 @@ Output: "bb"
 - 1 <= s.length <= 1000
 - s consist of only digits and English letters.
 
-## 6. String to Integer (atoi)
+## String to Integer (atoi)
 
 Implement the _myAtoi(string s)_ function, which converts a string to a 32-bit signed integer (similar to C/C++'s _atoi_ function).
 
@@ -208,7 +209,7 @@ Since 4193 is in the range [-2<sup>31</sup>, 2<sup>31</sup> - 1], the final resu
 - 0 <= s.length <= 200
 - s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
-## 7. Palindrome Number
+## Palindrome Number
 
 Given an integer _x_, return _true_ if _x_ is palindrome integer.
 
@@ -242,7 +243,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 **Follow up:** Could you solve it without converting the integer to a string?
 
-## 8. Container With Most Water
+## Container With Most Water
 
 You are given an integer array _height_ of length _n_. There are _n_ vertical lines drawn such that the two endpoints of the _i<sup>th</sup>_ line are _(i, 0)_ and _(i, height[i])_.
 
@@ -271,7 +272,7 @@ Output: 1
 - 2 <= n <= 10<sup>5</sup>
 - 0 <= height[i] <= 10<sup>4</sup>
 
-## 9. Integer to Roman
+## Integer to Roman
 
 Roman numerals are represented by seven different symbols: _I, V, X, L, C, D_ and _M_.
 ````
@@ -317,7 +318,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 - 1 <= num <= 3999
 
-## 10. Roman to Integer
+## Roman to Integer
 
 Roman numerals are represented by seven different symbols: _I, V, X, L, C, D_ and _M_.
 ````
@@ -366,7 +367,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 - It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 
-## 11. Longest Common Prefix
+## Longest Common Prefix
 **_Easy_**
 
 Write a function to find the longest common prefix string amongst an array of strings.
@@ -391,7 +392,7 @@ Explanation: There is no common prefix among the input strings.
 - 0 <= strs[i].length <= 200
 - strs[i] consists of only lower-case English letters.
 
-#11. 3Sum
+# 3Sum
 
 **_Medium_**
 
@@ -419,7 +420,7 @@ Output: []
 - 0 <= nums.length <= 3000
 - -10<sup>5</sup> <= nums[i] <= 10<sup>5</sup>
 
-## 12. Letter Combinations of a Phone Number
+## Letter Combinations of a Phone Number
 
 **_Medium_**
 
@@ -450,7 +451,7 @@ Constraints:
 - 0 <= digits.length <= 4
 - digits[i] is a digit in the range ['2', '9'].
 
-## 13. Remove Nth Node From End of List
+## Remove Nth Node From End of List
 
 **_Medium_**
 
@@ -485,7 +486,7 @@ Output: [1]
 **Follow up:** Could you do this in one pass?
 
 
-## 14. Valid Parentheses
+## Valid Parentheses
 
 **_Easy_**
 
@@ -549,14 +550,42 @@ Output: [0]
 - -100 <= Node.val <= 100
 - Both list1 and list2 are sorted in non-decreasing order.
 
+## Fibonacci Number
 
+**_Easy_**
 
+The **_Fibonacci numbers_**, commonly denoted _F(n)_ form a sequence, called the **_Fibonacci sequence_**, such that each number is the sum of the two preceding ones, starting from _0_ and _1_. That is,
 
+````
+F(0) = 0, F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n > 1.
+````
 
+Given _n_, calculate _F(n)_.
 
+**Example 1:**
+````
+Input: n = 2
+Output: 1
+Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+````
 
+**Example 2:**
+````
+Input: n = 3
+Output: 2
+Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
+````
 
+**Example 3:**
+````
+Input: n = 4
+Output: 3
+Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+````
 
+**Constraints:**
+- 0 <= n <= 30
 
 
 
@@ -615,7 +644,24 @@ Output: [0]
 
 
 
-## 100. Median of Two Sorted Arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Median of Two Sorted Arrays
 
 Given two sorted arrays _nums1_ and _nums2_ of size _m_ and _n_ respectively, return _**the median**_ of the two sorted arrays.
 
