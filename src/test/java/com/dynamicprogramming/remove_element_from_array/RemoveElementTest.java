@@ -1,6 +1,6 @@
-package com.dynamicprogramming;
+package com.dynamicprogramming.remove_element_from_array;
 
-import org.junit.jupiter.api.Test;
+import com.dynamicprogramming.remove_element_from_array.RemoveElement;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -37,8 +37,6 @@ class RemoveElementTest {
         for (int i = 0; i < expected.length; i++) {
             assertEquals(expected[i], input[i]);
         }
-
-        System.out.println("ABC".indexOf(""));
     }
 
 }

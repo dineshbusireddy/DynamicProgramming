@@ -725,7 +725,34 @@ Output: 0
 - _haystack_ and _needle_ consist of only lower-case English characters.
 
 
+## Search Insert Position
+**_Easy_**
 
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with _O(log n)_ runtime complexity.
+
+**Example 1:**
+````
+Input: nums = [1,3,5,6], target = 5
+Output: 2
+````
+**Example 2:**
+````
+Input: nums = [1,3,5,6], target = 2
+Output: 1
+````
+**Example 3:**
+````
+Input: nums = [1,3,5,6], target = 7
+Output: 4
+````
+
+**Constraints:**
+- _1 <= nums.length <= 10<sup>4</sup>_
+- _-10<sup>4</sup> <= nums[i] <= 10<sup>4</sup>_
+- _nums_ contains distinct values sorted in ascending order.
+- _-10<sup>4</sup> <= target <= 10<sup>4</sup>_
 
 
 

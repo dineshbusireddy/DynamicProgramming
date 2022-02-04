@@ -1,4 +1,4 @@
-package com.dynamicprogramming;
+package com.dynamicprogramming.remove_element_from_array;
 
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
