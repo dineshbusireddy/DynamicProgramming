@@ -785,7 +785,35 @@ Output: 23
 
 **Follow up:** If you have figured out the _O(n)_ solution, try coding another solution using the **divide and conquer** approach, which is more subtle.
 
+## Length of Last Word
+**_Easy_**
 
+Given a string _s_ consisting of some words separated by some number of spaces, return the length of the **last** word in the string.
+
+A **word** is a maximal substring consisting of non-space characters only.
+
+**Example 1:**
+````
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
+````
+**Example 2:**
+````
+Input: s = "   fly me   to   the moon  "
+Output: 4
+Explanation: The last word is "moon" with length 4.
+````
+**Example 3:**
+````
+Input: s = "luffy is still joyboy"
+Output: 6
+Explanation: The last word is "joyboy" with length 6.
+````
+**Constraints:**
+- _1 <= s.length <= 10<sup>4</sup>_
+- _s_ consists of only English letters and spaces ' '.
+- There will be at least one word in _s_.
 
 
 
