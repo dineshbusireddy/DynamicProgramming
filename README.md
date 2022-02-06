@@ -873,7 +873,29 @@ Output: false
 - _1 <= num <= 2<sup>31</sup> - 1_
 
 
+### Add Binary
+Given two binary strings _a_ and _b_, return their sum as a binary string.
 
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/add_binary_0.png "Add Binary")
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/add_binary_1.png "Add Binary")
+````
+Input: a = "11", b = "1"
+Output: "100"
+````
+**Example 2:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/add_binary_2.png "Add Binary")
+````
+Input: a = "1010", b = "1011"
+Output: "10101"
+````
+**Constraints:**
+- _1 <= a.length, b.length <= 10<sup>4</sup>_
+- _a_ and _b_ consist only of '_0_' or '_1_' characters.
+- Each string does not contain leading zeros except for the zero itself.
 
 
 
