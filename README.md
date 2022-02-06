@@ -852,7 +852,26 @@ Thus, the result should be [1,0].
 - _0 <= digits[i] <= 9_
 - _digits_ does not contain any leading _0_'s.
 
+## Valid Perfect Square
+**_Easy_**
 
+Given a **_positive_** integer _num_, write a function which returns True if num is a perfect square else False.
+
+**Follow up:** Do not use any built-in library function such as _sqrt_.
+
+**Example 1:**
+````
+Input: num = 16
+Output: true
+````
+**Example 2:**
+````
+Input: num = 14
+Output: false
+````
+
+**Constraints:**
+- _1 <= num <= 2<sup>31</sup> - 1_
 
 
 
