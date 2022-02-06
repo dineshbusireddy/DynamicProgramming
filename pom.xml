@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.rishi</groupId>
-    <artifactId>DynamicProgramming</artifactId>
+    <artifactId>ProgrammingPractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Leetcode</name>
-    <description>Leetcode Dynamic Programming Practice</description>
+    <description>Programming Practice</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
