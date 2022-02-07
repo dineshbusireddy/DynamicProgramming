@@ -898,6 +898,28 @@ Output: "10101"
 - Each string does not contain leading zeros except for the zero itself.
 
 
+### Sqrt(x)
+**_Easy_**
+
+Given a non-negative integer _x_, compute and return the square root of _x_.
+
+Since the return type is an integer, the decimal digits are **_truncated_**, and only the **_integer part_** of the result is returned.
+
+**Note**: You are not allowed to use any built-in exponent function or operator, such as _pow(x, 0.5)_ or _x ** 0.5_.
+
+**Example 1:**
+````
+Input: x = 4
+Output: 2
+````
+**Example 2:**
+````
+Input: x = 8
+Output: 2
+Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
+````
+**Constraints:**
+- _0 <= x <= 2<sup>31</sup> - 1_
 
 
 
