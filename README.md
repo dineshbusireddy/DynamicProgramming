@@ -1038,3 +1038,30 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 - _0 <= m, n <= 200_
 - _1 <= m + n <= 200_
 - _-10<sup>9</sup> <= nums1[i], nums2[j] <= 10<sup>9</sup>_
+
+### Binary Tree Inorder Traversal
+**_Easy_**
+
+Given the _root_ of a binary tree, return _the inorder traversal of its nodes' values_.
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/binary_tree_inorder_traversal.png "Binary Tree")
+````
+Input: root = [1,null,2,3]
+Output: [1,3,2]
+````
+**Example 2:**
+````
+Input: root = []
+Output: []
+````
+**Example 3:**
+````
+Input: root = [1]
+Output: [1]
+````
+
+**Constraints:**
+- The number of nodes in the tree is in the range [_0, 100_].
+- _-100 <= Node.val <= 100_
