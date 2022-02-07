@@ -948,6 +948,29 @@ Explanation: There are three ways to climb to the top.
 **Constraints:**
 - _1 <= n <= 45_
 
+### Remove Duplicates from Sorted List
+**_Easy_**
+
+Given the _head_ of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list **sorted** as well.
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/remove_duplicates_from_sorted_list_1.png "Remove Duplicates from Sorted List")
+````
+Input: head = [1,1,2]
+Output: [1,2]
+````
+**Example 2:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/remove_duplicates_from_sorted_list_2.png "Remove Duplicates from Sorted List")
+````
+Input: head = [1,1,2,3,3]
+Output: [1,2,3]
+````
+**Constraints:**
+- The number of nodes in the list is in the range _[0, 300]_.
+- _-100 <= Node.val <= 100_
+- The list is guaranteed to be **sorted** in ascending order.
 
 
 
