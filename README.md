@@ -972,59 +972,11 @@ Output: [1,2,3]
 - _-100 <= Node.val <= 100_
 - The list is guaranteed to be **sorted** in ascending order.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Median of Two Sorted Arrays
 
 Given two sorted arrays _nums1_ and _nums2_ of size _m_ and _n_ respectively, return _**the median**_ of the two sorted arrays.
 
 The overall run time complexity should be _O(log (m+n))_.
-
-
 
 **Example 1:**
 ````
@@ -1048,3 +1000,41 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 - 0 <= n <= 1000
 - 1 <= m + n <= 2000
 - -10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup>
+
+### Merge Sorted Array
+**_Easy_**
+
+You are given two integer arrays _nums1_ and _nums2_, sorted in **_non-decreasing order_**, and two integers _m_ and _n_, representing the number of elements in _nums1_ and _nums2_ respectively.
+
+**_Merge_** _nums1_ and _nums2_ into a single array sorted in **_non-decreasing order_**.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array _nums1_. To accommodate this, _nums1_ has a length of _m + n_, where the first _m_ elements denote the elements that should be merged, and the last _n_ elements are set to _0_ and should be ignored. _nums2_ has a length of _n_.
+
+**Example 1:**
+````
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+````
+**Example 2:**
+````
+Input: nums1 = [1], m = 1, nums2 = [], n = 0
+Output: [1]
+Explanation: The arrays we are merging are [1] and [].
+The result of the merge is [1].
+````
+**Example 3:**
+````
+Input: nums1 = [0], m = 0, nums2 = [1], n = 1
+Output: [1]
+Explanation: The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+````
+**Constraints:**
+- _nums1.length == m + n_
+- _nums2.length == n_
+- _0 <= m, n <= 200_
+- _1 <= m + n <= 200_
+- _-10<sup>9</sup> <= nums1[i], nums2[j] <= 10<sup>9</sup>_
