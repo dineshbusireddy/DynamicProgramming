@@ -921,9 +921,32 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
 **Constraints:**
 - _0 <= x <= 2<sup>31</sup> - 1_
 
+### Climbing Stairs
+**_Easy_**
 
+You are climbing a staircase. It takes _n_ steps to reach the top.
 
+Each time you can either climb _1_ or _2_ steps. In how many distinct ways can you climb to the top?
 
+**Example 1:**
+````
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+````
+**Example 2:**
+````
+Input: n = 3
+Output: 3
+Explanation: There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
+````
+**Constraints:**
+- _1 <= n <= 45_
 
 
 
