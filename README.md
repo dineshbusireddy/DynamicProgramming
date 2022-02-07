@@ -450,11 +450,11 @@ Constraints:
 - 0 <= digits.length <= 4
 - digits[i] is a digit in the range ['2', '9'].
 
-## Remove Nth Node From End of List
+## Remove N<sup>th</sup> Node From End of List
 
 **_Medium_**
 
-Given the **_head_** of a linked list, remove the **_nth_** node from the end of the list and return its head.
+Given the **_head_** of a linked list, remove the **_n<sup>th</sup>_** node from the end of the list and return its head.
 
 **Example 1:**
 
