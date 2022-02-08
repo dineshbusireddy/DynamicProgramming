@@ -1065,3 +1065,35 @@ Output: [1]
 **Constraints:**
 - The number of nodes in the tree is in the range [_0, 100_].
 - _-100 <= Node.val <= 100_
+
+### Same Tree
+**_Easy_**
+
+Given the roots of two binary trees _p_ and _q_, write a function to check if they are the same or not.
+
+Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/same_tree_1.png "Binary Tree")
+````
+Input: p = [1,2,3], q = [1,2,3]
+Output: true
+````
+**Example 2:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/same_tree_1.png "Binary Tree")
+````
+Input: p = [1,2], q = [1,null,2]
+Output: false
+````
+**Example 3:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/same_tree_1.png "Binary Tree")
+````
+Input: p = [1,2,1], q = [1,1,2]
+Output: false
+````
+**Constraints:**
+- The number of nodes in both trees is in the range [_0, 100_].
+- _-10<sup>4</sup> <= Node.val <= 10<sup>4</sup>_
