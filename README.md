@@ -1097,3 +1097,35 @@ Output: false
 **Constraints:**
 - The number of nodes in both trees is in the range [_0, 100_].
 - _-10<sup>4</sup> <= Node.val <= 10<sup>4</sup>_
+
+### Angle Between Hands of a Clock
+**_Medium_**
+
+Given two numbers, _hour_ and _minutes_, return the **smaller angle (in degrees) formed between the hour and the _minute hand_.**
+
+Answers within 10<sup>-5</sup> of the actual value will be accepted as correct.
+
+**Example 1:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/clock_1.png "Clock Angle")
+````
+Input: hour = 12, minutes = 30
+Output: 165
+````
+**Example 2:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/clock_2.png "Clock Angle")
+````
+Input: hour = 3, minutes = 30
+Output: 75
+````
+**Example 3:**
+
+![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/clock_3.png "Clock Angle")
+````
+Input: hour = 3, minutes = 15
+Output: 7.5
+````
+**Constraints:**
+- _1 <= hour <= 12_
+- _0 <= minutes <= 59_
