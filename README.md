@@ -1105,6 +1105,10 @@ Given two numbers, _hour_ and _minutes_, return the **smaller angle (in degrees)
 
 Answers within 10<sup>-5</sup> of the actual value will be accepted as correct.
 
+**How to calculate the two angles with respect to 12:00?**
+
+The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In h hours and m minutes, the minute hand would move _minutes * 6_ and hour hand would move _(hour*60 + minutes)*0.5_.
+
 **Example 1:**
 
 ![Alt text](https://github.com/dineshbusireddy/DynamicProgramming/blob/master/src/main/resources/clock_1.png "Clock Angle")

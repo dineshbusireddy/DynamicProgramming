@@ -1,5 +1,8 @@
-package com.codesignal;
+package com.leetcode;
 
+/**
+ *
+ */
 public class ClockAngle {
 
     public double clockAngle(int hour, int minutes) {
