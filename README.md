@@ -1107,7 +1107,7 @@ Answers within 10<sup>-5</sup> of the actual value will be accepted as correct.
 
 **How to calculate the two angles with respect to 12:00?**
 
-The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In h hours and m minutes, the minute hand would move _minutes * 6_ and hour hand would move _(hour*60 + minutes)*0.5_.
+The minute hand moves 360 degrees in 60 minute(or 6 degrees in one minute) and hour hand moves 360 degrees in 12 hours(or 0.5 degrees in 1 minute). In the given hour and minutes, the minute hand would move _minutes * 6_ and hour hand would move _(hour*60 + minutes)*0.5_.
 
 **Example 1:**
 
