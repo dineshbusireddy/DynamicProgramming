@@ -1133,3 +1133,35 @@ Output: 7.5
 **Constraints:**
 - _1 <= hour <= 12_
 - _0 <= minutes <= 59_
+
+### Missing Number
+**_Easy_**
+
+Given an array _nums_ containing n distinct numbers in the range _[0, n]_, return _the only number in the range that is missing from the array_.
+
+**Example 1:**
+````
+Input: nums = [3,0,1]
+Output: 2
+Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+````
+**Example 2:**
+````
+Input: nums = [0,1]
+Output: 2
+Explanation: n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums.
+````
+**Example 3:**
+````
+Input: nums = [9,6,4,2,3,5,7,0,1]
+Output: 8
+Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
+````
+**Constraints:**
+- _n == nums.length_
+- _1 <= n <= 10<sup>4</sup>_
+- _0 <= nums[i] <= n_
+- All the numbers of _nums_ are unique.
+
+
+**Follow up:** Could you implement a solution using only _O(1)_ extra space complexity and _O(n)_ runtime complexity?
